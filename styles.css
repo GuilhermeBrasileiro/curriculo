@@ -1,0 +1,229 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background-color: gray;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+/*--------------------------------------------------------------------*/
+
+header {
+	background-color: white;
+	width: 100%;
+	height: 25%;
+}
+
+.img-perfil {
+	width: 180px;
+	height: 180px;
+	margin: 2% 2%;
+	margin-top: 40px;
+	background-image: url("img.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 80px;
+	float: left;
+}
+
+
+
+.lateral {
+	float: right;
+	text-align: right;
+	position: relative;
+	line-height: 25px;
+	top: 30px;
+	right: 10px;
+}
+
+.lateral h1 {
+	color: #000;
+	padding-bottom: 5px;
+}
+
+.lateral a {
+	text-decoration: none;
+}
+
+header h2 {
+	position: relative;
+	display: inline-block;
+	color: #000;
+	font-size: 30px;
+	top: 70px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.perfil {
+	background-color: white;
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+
+.perfil > h2 {
+	margin: 0 1%;
+	padding-top: 2%;
+	color: #000;
+	border-bottom: 2px solid #000089;
+}
+
+.perfil > p {
+	line-height: 25px;
+	padding: 2%;
+}
+
+/*--------------------------------------------------------------------*/
+
+.conhecimentos {
+	background-color: white;
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+
+.conhecimentos > h2 {
+	margin: 0 1%;
+	padding-top: 2%;
+	color: #000;
+	border-bottom: 2px solid #000089;
+}
+
+.conhecimentos > ul {
+	list-style: none;
+	font-size: 15px;
+	padding: 2%;
+	line-height: 25px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.idiomas {
+	background-color: white;
+	width: 50%;
+	height: 15%;
+	float: left;
+}
+
+.idiomas > h2 {
+	margin: 0 1%;
+	padding-top: 2%;
+	color: #000;
+	border-bottom: 2px solid #000089;
+}
+
+.idiomas > ul {
+	list-style: none;
+	font-size: 15px;
+	padding: 2%;
+	line-height: 25px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.experiencia {
+	width: 50%;
+	height: 60%;
+	background-color: white;
+	float: right;
+}
+
+.experiencia h2 {
+	margin: 0 1%;
+	padding-top: 2%;
+	color: #000;
+	border-bottom: 2px solid #000089;
+}
+
+.experiencia > .data {
+	width: 15%;
+	height: 30%;
+	float: left;
+	margin-top: 2%;
+	color: #7a7a7a;
+	background-color: white;
+}
+
+.experiencia > .data > p {
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 11.5px;
+}
+
+.experiencia > .info {
+	width: 85%;
+	height: 30%;
+	float: left;
+	margin-top: 2%;
+	background-color: white;
+}
+
+.experiencia > .info > h4 {
+	padding: 1%;
+	font-size: 18px;
+}
+
+.experiencia > .info > h5 {
+	padding: 0 2%;
+	color: #5c5c5c;
+}
+
+.experiencia > .info > p {
+	padding: 1% 2% 0 2%;
+}
+
+/*--------------------------------------------------------------------*/
+
+.educacao {
+	width: 50%;
+	height: 15%;
+	background-color: white;
+	float: right;
+}
+
+.educacao > h2 {
+	margin: 0 1%;
+	padding-top: 2%;
+	color: #000;
+	border-bottom: 2px solid #000089;
+}
+
+.educacao > .data {
+	width: 15%;
+	height: 50px;
+	float: left;
+	color: #7a7a7a;
+	padding-top: 2%;
+}
+
+.educacao > .data > p{
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.educacao > .info {
+	width: 85%;
+	height: 50px;
+	font-size: 16px;
+	float: left;
+	padding-left: 2%;
+	padding-top: 2%;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $("#btnPrint").live("click", function () {
+            var divContents = $("#dvContainer").html();
+            var printWindow = window.open('', '', 'height=400,width=800');
+            printWindow.document.write('<html><head><title>DIV Contents</title>');
+            printWindow.document.write('</head><body >');
+            printWindow.document.write(divContents);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print();
+        });
+    </script>
+
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+
+			<img src="img.jpeg" class="img-perfil">
+			
+			<div class="lateral">
+				<h1>Junior Web Developer</h1>
+				<a href="https://github.com/GuilhermeBrasileiro" target="_blank"><img src="github.png" class="icon github"></a>
+				<a href="https://www.linkedin.com/in/guilherme-brasileiro-andrade-bab2a8103/" target="_blank"><img src="linkedin.png" class="icon linkedin"></a>
+				<p>03guiba@gmail.com</p>
+				<p>(11) 99198-8591</p>
+				<p>Jardim Umarizal - São Paulo/SP</p>
+			</div><!-- lateral -->
+			<h2>Guilherme Brasileiro de Andrade</h2>
+
+		</header>
+
+		<div class="clear"></div>
+
+		<section class="perfil">
+
+			<h2>Perfil</h2>
+			<p>Possuo boa comunição e postura, autodidata, bom
+			convívio e dinâmica em projetos, prezo
+			por resultados acima do que é esperado.
+			Graduando em Sistemas da Informação pela
+			UNINOVE, com experiência em Front-End por conta
+			de projetos extracurriculares</p>
+
+		</section><!-- perfil -->
+
+		<section class="experiencia">
+
+			<h2>Experiência Profissional</h2>
+			
+			<div class="data">
+				<p>04/2019 - Atual <br>
+				(São Paulo-Brasil)</p>
+			</div><!-- data -->
+
+			<div class="info">
+				<h4>Planneta Educação</h4>
+				<h5>Estagiário T.I</h5>
+				<p style="font-size: 14px;color: #7a7a7a;">Tarefas efetuadas:</p>
+				<p>Visitas técnicas a instituições de ensino, afim de incluir, remover e garantir a integridade das informações do sistema. Identificação de falhas e criação de relatórios, visando encontrar maior desempenho do sistema.</p>
+			</div><!-- info -->
+
+			<div class="data">
+				<p>05/2018 a 02/2019 <br>
+				(São Paulo - Brasil)</p>
+			</div><!-- data -->
+
+			<div class="info">
+				<h4>Pés Sem Dor</h4>
+				<h5>HelpDesk N1</h5>
+				<p style="font-size: 14px;color: #7a7a7a;">Tarefas efetuadas:</p>
+				<p>Prestar assistência em equipamentos presencialmente e remotamente a todos os funcionários da empresa. Instalação e manutenção de máquinas. Certificar o funcionamento de equipamentos e contagem de estoque.</p>
+			</div><!-- info -->
+
+			<div class="data">
+				<p>01/2016 a 12/2016 <br>
+				(São Paulo - Brasil)</p>
+			</div><!-- data -->
+
+			<div class="info">
+				<h4>Tribunal Regional Federal da 3º Região</h4>
+				<h5>Jovem Aprendiz</h5>
+				<p style="font-size: 14px;color: #7a7a7a;">Tarefas efetuadas:</p>
+				<p>Analisar, conferir e arquivar documentos , atender ligações telefônicas e ao público em geral, auxilar na elaboração de documentos, planilhas ou formulários e pesquisar e coletar dados.</p>
+			</div><!-- info -->
+
+		</section><!-- experiencia -->
+
+		<section class="conhecimentos">
+
+			<h2>Conhecimentos</h2>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript</li>
+				<li>MySQL</li>
+				<li>PHP</li>
+				<li>Java</li>
+			</ul>
+
+		</section><!-- conhecimentos -->
+
+		<section class="idiomas">
+
+			<h2>Idiomas</h2>
+			<ul>
+				<li>Português</li>
+				<li>Inglês Técnico</li>
+			</ul>
+
+		</section><!-- idiomas -->
+
+		<section class="educacao">
+
+			<h2>Educação</h2>
+			<div class="data">
+				<p>2019 a 2022</p>
+			</div><!-- data -->
+
+			<div class="info">
+				<p>Graduação em Ciências da Computação (Cursando)</p>
+				<p style="font-weight: bold;">Universidade Nove de Julho - UNINOVE</p>
+			</div><!-- info -->
+
+		</section><!-- educacao -->
+
+	</div>
+
+</body>
+</html>
