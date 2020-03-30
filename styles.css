@@ -108,8 +108,16 @@ header h2 {
 
 .conhecimentos > ul {
 	list-style: none;
-	font-size: 15px;
+	font-size: 18px;
 	padding: 2%;
+	line-height: 25px;
+}
+
+.conhecimentos > ul > ul {
+	list-style: square;
+	list-style-position: inside;
+	font-size: 14px;
+	padding-left: 10px;
 	line-height: 25px;
 }
 
